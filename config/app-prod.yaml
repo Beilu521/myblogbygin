@@ -1,0 +1,21 @@
+Server:
+  port: 80
+  ip: "0.0.0.0"
+Database:
+  host: "localhost"
+  port: 3306
+  username: "prod_user"
+  password: "prod_password"
+  name: "myblog_prod"
+JWT:
+  secret: "prod-secret-key-must-be-changed"
+  expire: 168
+Email:
+  host: "smtp.qq.com"
+  port: 587
+  username: ""
+  password: ""
+  from: ""
+Log:
+  filename: "./logs/app.log"
+  level: "error"

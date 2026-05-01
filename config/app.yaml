@@ -1,0 +1,24 @@
+Server:
+  ip: "0.0.0.0"
+  port: 8080
+Database:
+  host: "localhost"
+  port: 3306
+  username: "root"
+  password: "123456"
+  name: "myblog"
+JWT:
+  secret: "your-secret-key-change-in-production"
+  expire: 24
+Email:
+  host: "smtp.qq.com"
+  port: 587
+  username: ""
+  password: ""
+  from: ""
+Log:
+  filename: "./logs/app.log"
+  maxSize: 10
+  maxBackups: 5
+  maxAge: 30
+  compress: true

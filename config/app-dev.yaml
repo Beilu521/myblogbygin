@@ -1,0 +1,20 @@
+Server:
+  port: 8080
+Database:
+  host: "localhost"
+  port: 3306
+  username: "root"
+  password: "123456"
+  name: "myblog_dev"
+JWT:
+  secret: "dev-secret-key-change-in-prod"
+  expire: 24
+Email:
+  host: "smtp.qq.com"
+  port: 587
+  username: "your_qq@qq.com"
+  password: "your_auth_code"
+  from: "your_qq@qq.com"
+Log:
+  filename: "./logs/app.log"
+  level: "debug"
